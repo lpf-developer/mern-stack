@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const user = require('../controllers/user.controller')
+const userController = require('../controllers/user.controller')
 
-router.get('/soma', user.soma)
+router.post('/', userController.create)
 
 module.exports = router;
