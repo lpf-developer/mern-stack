@@ -1,5 +1,5 @@
 const soma = (req, res) => {
     const soma = 100 + 1
-    res.send({soma: soma})
+    res.send({ soma: soma })
 }
-module.exports = {soma}
+module.exports = { soma }
